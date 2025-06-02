@@ -1,88 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="portfolioCSS.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <h1>MyPortfolio</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Teck Stack</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><button id="toggle-theme">🌙</button></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="hero">
-    <h2>Hello, I'm <span class="highlight">Franz Christian Abella</span></h2>
-    <p>Backend Developer | Designer | Creator</p>
-    <a href="#projects" class="btn">View My Work</a>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a passionate Backend developer with knowledge in Java, MySQL, ADO.NET, and modern web frameworks.</p>
-  </section>
-
-  <section id="tech-stack">
-    <h2>Tech Stack</h2>
-    <div class="tech-grid">
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com%2Ficons%2Fset%2Fhtml-logo&psig=AOvVaw2z1kCCNWDn_ei3WgjlBApa&ust=1748965925248000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLC_zveL040DFQAAAAAdAAAAABAE" alt="HTML5">
-        <p>HTML5</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ACSS3_logo_and_wordmark.svg&psig=AOvVaw18zfHPXrxSzoeDJt26uM0c&ust=1748965987767000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiTzpWM040DFQAAAAAdAAAAABAE" alt="CSS3">
-        <p>CSS3</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AJavaScript-logo.png&psig=AOvVaw2davXS8XhRIXzVjqnD6zMZ&ust=1748966017965000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCayaOM040DFQAAAAAdAAAAABAE" alt="JavaScript">
-        <p>JavaScript</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALogo_C_sharp.svg&psig=AOvVaw17_bP2mRtRqjiENpqseSAR&ust=1748966044396000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJihgLGM040DFQAAAAAdAAAAABAE" alt="Csharp">
-        <p>C#</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrandslogos.com%2Fj%2Fjava-logo-1%2F&psig=AOvVaw2017QwKffKUjcLr-rgiUtv&ust=1748966069610000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCAxbyM040DFQAAAAAdAAAAABAE" alt="Java">
-        <p>Java</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.logo.wine%2Flogo%2FMySQL&psig=AOvVaw2uFrVE9VmywaCbKtnWrGog&ust=1748966096076000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiy2cmM040DFQAAAAAdAAAAABAE" alt="MySQL">
-        <p>MySQL</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Ficon%2Fmongodb-original-wordmark-logo%2F146425&psig=AOvVaw2WrdUULxZTojKIm2eT2gE4&ust=1748966125811000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCOyNeM040DFQAAAAAdAAAAABAE" alt="MongoDB">
-        <p>MongoDB</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2qfu28lpGkS3WThe5ECvj_&ust=1748966144888000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCnr-CM040DFQAAAAAdAAAAABAE" alt="Git">
-        <p>Git & GitHub</p>
-      </div>
+<section id="tech-stack">
+  <h2>Tech Stack</h2>
+  <div class="tech-grid">
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML5" />
+      <p>HTML5</p>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Franz Christian Abella</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" />
+      <p>CSS3</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
+      <p>JavaScript</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#" />
+      <p>C#</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" />
+      <p>Java</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL" />
+      <p>MySQL</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="MongoDB" />
+      <p>MongoDB</p>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
+      <p>Git & GitHub</p>
+    </div>
+  </div>
+</section>
