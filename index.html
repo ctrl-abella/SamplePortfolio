@@ -5,85 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="portfolioCSS.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body style="background-color: #010d16;">
   <header>
     <nav>
-      <h1>MyPortfolio</h1>
+      <h1 style="text-shadow: 0 0 30px rgb(247, 250, 252), 0 0 28px #ffffff;">My Portfolio</h1>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Teck Stack</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><button id="toggle-theme">🌙</button></li>
+        <li><a href="About.html", style="font-style: 'Poppins'; font-size: 20px; color: #fff; text-shadow: 0 0 30px rgb(247, 250, 252), 0 0 28px #ffffff;">About</a></li>
+        <li><a href="Projects.html", style="font-style: 'Poppins'; font-size: 20px; color: #fff; text-shadow: 0 0 30px rgb(247, 250, 252), 0 0 28px #ffffff;">Projects</a></li>
+        <li><a href="index.html", style="font-style: 'Poppins'; font-size: 20px; color: #fff; text-shadow: 0 0 30px rgb(247, 250, 252), 0 0 28px #ffffff;">Home</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="hero">
-    <h2>Hello, I'm <span class="highlight">Franz Christian Abella</span></h2>
-    <p>Backend Developer | Designer | Creator</p>
-    <a href="#projects" class="btn">View My Work</a>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a passionate Backend developer with knowledge in Java, MySQL, ADO.NET, and modern web frameworks.</p>
-  </section>
-
-  <section id="tech-stack">
-    <h2>Tech Stack</h2>
-    <div class="tech-grid">
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML5" />
-        <p>HTML5</p>
+  <section id="hero", style="background-color: #010d16;">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2 style="color: #C30F45; font-family: 'Poppins';  text-shadow: 0 0 10px #C30F45, 0 0 40px #ce1e53;">Hello, I'm <span class="highlight">Franz Christian Abella</span></h2>
+        <p style="color: #C30F45; font-family: 'Poppins';">Full-stack Developer |  Application Developer</p>
+        <a href="Projects.html" class="btn">Projects ⟶</a>
       </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" />
-        <p>CSS3</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
-        <p>JavaScript</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#" />
-        <p>C#</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" />
-        <p>Java</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL" />
-        <p>MySQL</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="MongoDB" />
-        <p>MongoDB</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
-        <p>Git & GitHub</p>
+      <div class="hero-image">
+        <img src="Profile.jpeg" style="box-shadow: 0 0 30px #C30F45, 0 0 20px #c22c59;" alt="Franz Christian Abella">
       </div>
     </div>
   </section>
+
+ 
+    <h1 style="margin-left: 260px;">Contact</h1>
+    
+    <div class="social-icons">
+      
+     
+        <a href="https://www.instagram.com/afrnz18?igsh=MWR6ejI1bmw4N2U0"><img src="Instagram.jpeg" alt="Instagram" class="icon" ></a>
+      
+     
+      
+        <a href="https://www.facebook.com/share/1DsCN7sp44/"><img src="Facebook.png" alt="Facebook" class="icon"></a>
+      
+      
+        <a href="https://www.linkedin.com/in/franz-abella-435682315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="LinkedIn.png" alt="LinkedIn" class="icon"></a>
+
+  
+    </div>
+    
   
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+
+  <section id="tech-stack">
+    <h2 style="font-style: 'Poppins'; color: #C30F45; text-shadow: 0 0 30px #e61414, 0 0 25px #e94e4e;">Tech Stack</h2>
+    <div class="tech-grid">
+      <div class="tech-item">
+        <img src="HTMLLogo.png" alt="HTML5"> 
+        <p class="tech-text">HTML5</p>
+      </div>
+      <div class="tech-item">
+        <img src="CSSLogo.png" alt="CSS3">
+        <p class="tech-text">CSS3</p>
+      </div>
+      <div class="tech-item">
+        <img src="JSLogo.jpg" alt="JavaScript">
+        <p class="tech-text">JavaScript</p>
+      </div>
+      <div class="tech-item">
+        <img src="CsharpLogo.png" alt="Csharp">
+        <p class="tech-text">C#</p>
+      </div>
+      <div class="tech-item">
+        <img src="JavaLogo.png" alt="Java">
+        <p class="tech-text">Java</p>
+      </div>
+      <div class="tech-item">
+        <img src="MySQLLogo.png" alt="MySQL">
+        <p class="tech-text">MySQL</p>
+      </div>
+      <div class="tech-item">
+        <img src="MongoDBLogo.png" alt="MongoDB">
+        <p class="tech-text">MongoDB</p>
+      </div>
+      <div class="tech-item">
+        <img src="GithubLogo.png" alt="Git">
+        <p class="tech-text">Git & GitHub</p>
+      </div>
+      <div class="tech-item">
+        <img src="ReactIcon.png" alt="CSS3">
+        <p class="tech-text">React Native</p>
+    </div>
   </section>
 
+  
+
   <footer>
+    Contacts:
+    <h2>Contact No.: +639683211643</h2>
+    
+    <h2>Gmail: abellafranzchristian@gmail.com</h2>
     <p>&copy; 2025 Franz Christian Abella</p>
   </footer>
 
-  <script src="script.js"></script>
+ 
 </body>
 </html>
 
